@@ -259,6 +259,7 @@ namespace RGBKeyboardSpectrograph
             SettingsKeyboardModelCB.Items.Add("K70-RGB");
             SettingsKeyboardModelCB.Items.Add("K95-RGB");
             SettingsKeyboardModelCB.Items.Add("STRAFE");
+            SettingsKeyboardModelCB.Items.Add("STRAFE RGB");
 
             SettingsMouseModelCB.Items.Add("None");
             SettingsMouseModelCB.Items.Add("M65 RGB");
@@ -860,6 +861,11 @@ namespace RGBKeyboardSpectrograph
         /// <returns>True for success, false for failure.</returns>
         public bool LoadFromConfig(string KeyboardID)
         {
+            if (KeyboardID == "STRAFE RGB")
+            {
+                KeyboardID = "STRAFE";
+            }
+
             // Make sure the config files can be found
             if (File.Exists("corsair_devices\\" + KeyboardID + ".xml") == false)
             {
@@ -898,6 +904,9 @@ namespace RGBKeyboardSpectrograph
                             break;
                         case "STRAFE":
                             Program.SettingsKeyboardID = 0x1B15;
+                            break;
+                        case "STRAFE RGB":
+                            Program.SettingsKeyboardID = 0x1B20;
                             break;
                     }
                 }
@@ -1936,7 +1945,7 @@ namespace RGBKeyboardSpectrograph
             int offsetX = 1;
             int offsetY = 0;
 
-            if (Program.SettingsKeyboardModel == "STRAFE")
+            if (Program.SettingsKeyboardModel == "STRAFE" || Program.SettingsKeyboardModel == "STRAFE RGB")
             { offsetX = -1; }
 
             Button[] keyboardButtons = new Button[keyData.Length];

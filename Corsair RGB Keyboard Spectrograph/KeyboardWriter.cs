@@ -407,6 +407,10 @@ namespace RGBKeyboardSpectrograph
             if (SuppressMessages == false) { UpdateStatusMessage.ShowStatusMessage(4, "Searching for " + KeyboardName + " (" + KeyboardID.ToString("X") + ")"); };
 
             this.keyboardUsbDevice = this.GetDeviceHandle(0x1B1C, KeyboardID, 0x3);
+            if (keyboardUsbDevice == IntPtr.Zero)
+                this.keyboardUsbDevice = this.GetDeviceHandle(0x1B1C, KeyboardID, 0x2);
+            if (keyboardUsbDevice == IntPtr.Zero)
+                this.keyboardUsbDevice = this.GetDeviceHandle(0x1B1C, KeyboardID, 0x0);
 
             if (this.keyboardUsbDevice == IntPtr.Zero)
             {
@@ -610,6 +614,85 @@ namespace RGBKeyboardSpectrograph
 
         private void UpdateKeyboard()
         {
+            if (Program.SettingsKeyboardModel == "STRAFE RGB")
+            {
+                UpdateStrafeRgbKeyboard();
+                return;
+            }
+
+            UpdateRgbKeyboard();
+        }
+
+        private void UpdateStrafeRgbKeyboard()
+        {
+            var packets = new byte[12][];
+            for (var i = 0; i < packets.Length; ++i)
+            {
+                packets[i] = new byte[64];
+            }
+
+            var j = 0;
+            while (j < 12)
+            {
+                packets[j][0] = 127;
+                packets[j][1] = 1;
+                packets[j][2] = 60;
+
+                packets[j + 1][0] = 127;
+                packets[j + 1][1] = 2;
+                packets[j + 1][2] = 60;
+
+                packets[j + 2][0] = 127;
+                packets[j + 2][1] = 3;
+                packets[j + 2][2] = 48;
+
+                packets[j + 3][0] = 7;
+                packets[j + 3][1] = 40;
+                packets[j + 3][3] = 3;
+
+                j += 4;
+            }
+
+            packets[3][2] = 1;
+            packets[3][4] = 1;
+            packets[7][2] = 2;
+            packets[7][4] = 1;
+            packets[11][2] = 3;
+            packets[11][4] = 2;
+
+            for (var i = 0; i < 60; ++i)
+            {
+                packets[0][i + 4] = redValues[i];
+                packets[4][i + 4] = greenValues[i];
+                packets[8][i + 4] = blueValues[i];
+            }
+            for (var i = 0; i < 60; ++i)
+            {
+                packets[1][i + 4] = redValues[i + 60];
+                packets[5][i + 4] = greenValues[i + 60];
+                packets[9][i + 4] = blueValues[i + 60];
+            }
+            for (var i = 0; i < 24; ++i)
+            {
+                packets[2][i + 4] = redValues[i + 120];
+                packets[6][i + 4] = greenValues[i + 120];
+                packets[10][i + 4] = blueValues[i + 120];
+            }
+            
+            for (var i = 0; i < 12; ++i)
+            {
+                var packet = packets[i];
+                if (!SendUsbMessage(packet))
+                {
+                    UpdateStatusMessage.ShowStatusMessage(3, "Packet " + packet + " Failed");
+                }
+
+                Program.ThreadStatus = 1;
+            }
+        }
+
+        private void UpdateRgbKeyboard()
+        {
             // Perform USB control message to keyboard
             //
             // Request Type:  0x21
@@ -637,7 +720,7 @@ namespace RGBKeyboardSpectrograph
             this.dataPacket[4][0] = 0x07;
             this.dataPacket[4][1] = 0x27;
             this.dataPacket[4][4] = 0xD8;
-            
+
             for (int i = 0; i < 60; i++)
             {
                 this.dataPacket[0][i + 4] = (byte)(this.redValues[i * 2 + 1] << 4 | this.redValues[i * 2]);
@@ -676,10 +759,11 @@ namespace RGBKeyboardSpectrograph
                 this.dataPacket[4][i + 4] = (byte)0;
             }
 
-            for (int p = 0; p < 5; p++ )
+            for (int p = 0; p < 5; p++)
             {
                 if (this.SendUsbMessage(dataPacket[p]) == false)
                 {
+                    UpdateStatusMessage.ShowStatusMessage(3, "Packet " + p + " Failed");
                     UpdateStatusMessage.ShowStatusMessage(3, "Packet " + p + " Failed");
                 };
                 Program.ThreadStatus = 1;
