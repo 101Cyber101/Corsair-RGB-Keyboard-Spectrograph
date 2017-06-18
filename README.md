@@ -40,5 +40,16 @@ This project is licensed under the GNU GPL v3.0. When using snippets of my code,
 
 Written by Emily Maxwell. https://github.com/Elestriel/Corsair-RGB-Keyboard-Spectrograph
 
+## ColorPickerControls
+
+This project includes code portions from [WPF Color Picker Contruction
+Kit][color-picker] ditributed under the terms of [The Code Project Open License
+(CPOL)][cpol]. All that code is stored in the [ColorPicker][colorpicker-src] directory.
+
 #Cheers!
 I hope you enjoy using this program as much as I enjoy making it!
+
+[colorpicker-src]: ColorPicker/
+
+[cpol]: https://www.codeproject.com/info/cpol10.aspx
+[color-picker]: https://www.codeproject.com/Articles/131708/WPF-Color-Picker-Construction-Kit
