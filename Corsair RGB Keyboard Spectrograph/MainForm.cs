@@ -814,7 +814,7 @@ namespace RGBKeyboardSpectrograph
                         }
                         for (int i = 144; i < 148; i++)
                         {
-                            Program.MouseColors[i].Set(keyColors.Colors[i]);
+                            Program.MouseColors[i - 144].Set(keyColors.Colors[i]);
                         }
                             RefreshKeyColors();
                     }
