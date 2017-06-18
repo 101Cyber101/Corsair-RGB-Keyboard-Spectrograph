@@ -45,12 +45,6 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ColorPicker">
-      <HintPath>..\..\..\..\References\ColorPicker\ColorPicker.dll</HintPath>
-    </Reference>
-    <Reference Include="ColorPickerControls">
-      <HintPath>..\..\..\..\References\ColorPicker\ColorPickerControls.dll</HintPath>
-    </Reference>
     <Reference Include="CSCore, Version=1.2.1.1, Culture=neutral, PublicKeyToken=5a08f2b6f4415dea, processorArchitecture=MSIL">
       <HintPath>..\packages\CSCore.1.2.1.1\lib\net35-client\CSCore.dll</HintPath>
     </Reference>
@@ -211,7 +205,16 @@
     <None Include="Resources\paintbucket.png" />
     <None Include="Resources\eyedropper.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ColorPicker\ColorPickerControls\ColorPickerControls.csproj">
+      <Project>{02e6c16f-757f-44ac-be66-c0d79c0ebe0b}</Project>
+      <Name>ColorPickerControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ColorPicker\ColorPicker\ColorPicker.csproj">
+      <Project>{059dc6c7-59c6-4adf-8960-976a02e7498e}</Project>
+      <Name>ColorPicker</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
