@@ -8,8 +8,6 @@
 *.user
 *.sln.docstates
 
-corsair_devices/
-
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

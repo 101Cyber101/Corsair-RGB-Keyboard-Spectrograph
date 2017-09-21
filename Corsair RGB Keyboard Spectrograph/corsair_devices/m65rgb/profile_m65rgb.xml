@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<device height="783" type="mouse" width="598" version="1">
+  <modelName>M65 RGB</modelName>
+  <name>M65 RGB</name>
+  <usb_pid>1b12</usb_pid>
+  <hidproto>nxp2000_mouse</hidproto>
+  <protected_actions>
+    <protected_action name="MouseStandardLeftClickCommand"/>
+  </protected_actions>
+  <SupportsSetPollingRate>true</SupportsSetPollingRate>
+  <NeedsWorkaroundSlowStartup>true</NeedsWorkaroundSlowStartup>
+  <layouts>
+    <layout pcb_layout="US" version="1">
+      <layout_images>
+        <layout name="uk" default="1">
+          <image>image/m65rgb.png</image>
+          <light_image>image/m65rgb.png</light_image>
+        </layout>
+      </layout_images>
+
+      <keys>
+        <key>
+          <name>Mouse1</name>
+          <geometry>
+            <point x="157" y="73"/>
+            <point x="226" y="144"/>
+            <point x="286" y="219"/>
+            <point x="143" y="274"/>
+            <point x="69" y="152"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>MouseStandardLeftClickCommand</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>Mouse2</name>
+          <geometry>
+            <point x="204" y="59"/>
+            <point x="216" y="55"/>
+            <point x="323" y="68"/>
+            <point x="377" y="119"/>
+            <point x="424" y="167"/>
+            <point x="338" y="200"/>
+            <point x="317" y="177"/>
+            <point x="313" y="157"/>
+            <point x="301" y="135"/>
+            <point x="286" y="115"/>
+            <point x="267" y="103"/>
+            <point x="246" y="101"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>Mouse3</name>
+          <geometry>
+            <point x="247" y="101"/>
+            <point x="265" y="102"/>
+            <point x="281" y="111"/>
+            <point x="296" y="127"/>
+            <point x="309" y="148"/>
+            <point x="314" y="160"/>
+            <point x="317" y="177"/>
+            <point x="318" y="200"/>
+            <point x="288" y="212"/>
+            <point x="205" y="119"/>
+            <point x="215" y="112"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>MouseFrontLed</name>
+          <geometry>
+            <point x="247" y="101"/>
+            <point x="265" y="102"/>
+            <point x="281" y="111"/>
+            <point x="296" y="127"/>
+            <point x="309" y="148"/>
+            <point x="314" y="160"/>
+            <point x="317" y="177"/>
+            <point x="318" y="200"/>
+            <point x="288" y="212"/>
+            <point x="205" y="119"/>
+            <point x="215" y="112"/>
+          </geometry>
+          <l_key>
+            <disabledLightingTypes>
+              <type>ripple</type>
+              <type>wave</type>
+            </disabledLightingTypes>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="1">
+                <predefinedBgColor>#ffffff</predefinedBgColor>
+              </predefinedLighting>
+            </predefinedLightings>
+          </l_key>
+        </key>
+        <key>
+          <name>MouseDpiLed</name>
+          <geometry>
+            <point x="319" y="251"/>
+            <point x="368" y="230"/>
+            <point x="408" y="284"/>
+            <point x="360" y="306"/>
+          </geometry>
+          <l_key>
+            <dpiLightingKey>1</dpiLightingKey>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="0">
+                <predefinedFgLighting>MouseDpiLighting</predefinedFgLighting>
+              </predefinedLighting>
+            </predefinedLightings>
+            <disabledLightingTypes>
+              <type>wave</type>
+              <type>ripple</type>
+            </disabledLightingTypes>
+          </l_key>
+        </key>
+        <key>
+          <name>Mouse4</name>
+          <geometry>
+            <point x="212" y="400"/>
+            <point x="244" y="442"/>
+            <point x="282" y="481"/>
+            <point x="273" y="487"/>
+            <point x="266" y="489"/>
+            <point x="259" y="490"/>
+            <point x="228" y="459"/>
+            <point x="203" y="429"/>
+            <point x="204" y="426"/>
+            <point x="195" y="414"/>
+            <point x="200" y="405"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>Mouse5</name>
+          <geometry>
+            <point x="165" y="327"/>
+            <point x="186" y="361"/>
+            <point x="210" y="396"/>
+            <point x="198" y="403"/>
+            <point x="194" y="411"/>
+            <point x="186" y="401"/>
+            <point x="181" y="399"/>
+            <point x="150" y="347"/>
+            <point x="150" y="338"/>
+            <point x="156" y="331"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>Mouse6</name>
+          <geometry>
+            <point x="294" y="220"/>
+            <point x="345" y="201"/>
+            <point x="365" y="227"/>
+            <point x="318" y="249"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>DPI Up</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>Mouse7</name>
+          <geometry>
+            <point x="362" y="309"/>
+            <point x="409" y="288"/>
+            <point x="415" y="296"/>
+            <point x="422" y="331"/>
+            <point x="423" y="340"/>
+            <point x="407" y="347"/>
+            <point x="370" y="320"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>DPI Down</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>Mouse8</name>
+          <geometry>
+            <point x="144" y="384"/>
+            <point x="194" y="454"/>
+            <point x="196" y="459"/>
+            <point x="195" y="481"/>
+            <point x="192" y="491"/>
+            <point x="187" y="509"/>
+            <point x="180" y="519"/>
+            <point x="170" y="522"/>
+            <point x="162" y="510"/>
+            <point x="128" y="434"/>
+            <point x="129" y="426"/>
+          </geometry>
+          <d_key>
+            <predefinedCommand>Sniper</predefinedCommand>
+          </d_key>
+        </key>
+        <key>
+          <name>MouseLogoLed</name>
+          <geometry>
+            <point x="479" y="594"/>
+            <point x="562" y="547"/>
+            <point x="575" y="587"/>
+            <point x="550" y="640"/>
+            <point x="540" y="655"/>
+            <point x="525" y="660"/>
+            <point x="510" y="662"/>
+            <point x="470" y="630"/>
+          </geometry>
+          <l_key>
+            <disabledLightingTypes>
+              <type>ripple</type>
+              <type>wave</type>
+            </disabledLightingTypes>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="1">
+                <predefinedBgColor>#ff0000</predefinedBgColor>
+              </predefinedLighting>
+            </predefinedLightings>
+          </l_key>
+        </key>
+      </keys>
+      <keysMap>
+        <mapping d_key="Mouse3" l_key="MouseFrontLed"/>
+      </keysMap>
+      <light>
+        <groups>
+          <group name="All" version="1">
+            <keys>
+              <key name="MouseFrontLed" />
+              <key name="MouseLogoLed" />
+            </keys>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="0">
+              </predefinedLighting>
+            </predefinedLightings>
+          </group>
+        </groups>
+      </light>
+    </layout>
+  </layouts>
+  <performance minDpi="50" maxDpi="8200" dpiStep="50" maxDpiSlots="5">
+    <pollingRates>
+      <pollingRate>125</pollingRate>
+      <pollingRate>250</pollingRate>
+      <pollingRate>500</pollingRate>
+      <pollingRate>1000</pollingRate>
+    </pollingRates>
+    <defaultDPI independent="false">
+      <dpiStages>
+        <dpi x="400" y="400"/>
+        <dpi x="800" y="800"/>
+        <dpi default="true" x="1500" y="1500"/>
+        <dpi x="3000" y="3000"/>
+        <dpi x="6000" y="6000"/>
+      </dpiStages>
+      <dpiSniper independent="0" x="400" y="400"/>
+    </defaultDPI>
+  </performance>
+</device>

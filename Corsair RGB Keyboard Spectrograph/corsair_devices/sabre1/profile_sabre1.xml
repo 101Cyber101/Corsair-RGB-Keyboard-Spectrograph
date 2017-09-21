@@ -1,0 +1,335 @@
+<device height="666" type="mouse" version="1" width="654">
+  <modelName>Sabre1</modelName>
+  <name>SABRE RGB Optical</name>
+  <usb_pid>1b14</usb_pid>
+  <hidproto>nxp2000_mouse</hidproto>
+  <protected_actions>
+    <protected_action name="MouseStandardLeftClickCommand" />
+  </protected_actions>
+  <SupportsSetPollingRate>true</SupportsSetPollingRate>
+  <NeedsWorkaroundSlowStartup>true</NeedsWorkaroundSlowStartup>
+  <layouts>
+    <layout pcb_layout="US" version="1">
+      <layout_images>
+        <layout default="1" name="uk">
+          <image>image/sabre1.png</image>
+          <light_image>image/sabre1-lighting.png</light_image>
+        </layout>
+      </layout_images>
+      <keys>
+        <key>
+          <name>Mouse1</name>
+          <d_key>
+            <predefinedCommand>MouseStandardLeftClickCommand</predefinedCommand>
+          </d_key>
+        <geometry><point x="65" y="65" /><point x="177" y="20" /><point x="314" y="151" /><point x="197" y="208" /><point x="63" y="65" /></geometry></key>
+        <key>
+          <name>Mouse2</name>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        <geometry><point x="331" y="81" /><point x="390" y="141" /><point x="473" y="102" /><point x="466" y="95" /><point x="435" y="69" /><point x="410" y="51" /><point x="396" y="41" /><point x="377" y="31" /><point x="360" y="22" /><point x="338" y="11" /><point x="311" y="6" /><point x="287" y="3" /><point x="262" y="3" /><point x="242" y="6" /><point x="301" y="55" /><point x="312" y="61" /><point x="322" y="69" /><point x="330" y="80" /></geometry></key>
+        <key>
+          <name>Mouse3</name>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        <geometry><point x="236" y="71" /><point x="255" y="53" /><point x="267" y="48" /><point x="281" y="48" /><point x="295" y="53" /><point x="308" y="61" /><point x="323" y="76" /><point x="335" y="95" /><point x="344" y="118" /><point x="346" y="124" /><point x="309" y="143" /><point x="233" y="70" /></geometry></key>
+        <key>
+          <name>MouseFrontLed</name>
+          <geometry>
+            <point x="53" y="512" />
+            <point x="182" y="545" />
+            <point x="227" y="590" />
+            <point x="239" y="601" />
+            <point x="115" y="570" />
+            <point x="52" y="513" />
+          </geometry>
+          <l_key>
+            <disabledLightingTypes>
+              <type>ripple</type>
+              <type>wave</type>
+            </disabledLightingTypes>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="1">
+                <predefinedBgColor>#ffffff</predefinedBgColor>
+              </predefinedLighting>
+            </predefinedLightings>
+          </l_key>
+        </key>
+        <key>
+          <name>MouseScrollLed</name>
+          <geometry>
+            <point x="238" y="73" />
+            <point x="308" y="142" />
+            <point x="345" y="126" />
+            <point x="342" y="105" />
+            <point x="333" y="86" />
+            <point x="320" y="68" />
+            <point x="300" y="53" />
+            <point x="281" y="46" />
+            <point x="264" y="48" />
+            <point x="249" y="53" />
+            <point x="240" y="60" />
+            <point x="237" y="71" />
+          </geometry>
+          <l_key>
+            <disabledLightingTypes>
+              <type>ripple</type>
+              <type>wave</type>
+            </disabledLightingTypes>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="1">
+                <predefinedBgColor>#ffffff</predefinedBgColor>
+              </predefinedLighting>
+            </predefinedLightings>
+          </l_key>
+        </key>
+
+        <key>
+          <name>MouseDpiLed</name>
+          <geometry>
+            <point x="84" y="136" />
+            <point x="161" y="221" />
+            <point x="152" y="224" />
+            <point x="144" y="225" />
+            <point x="139" y="223" />
+            <point x="132" y="221" />
+            <point x="81" y="163" />
+            <point x="79" y="153" />
+            <point x="77" y="145" />
+            <point x="77" y="139" />
+            <point x="79" y="131" />
+            <point x="84" y="136" />
+          </geometry>
+          <l_key>
+            <dpiLightingKey>1</dpiLightingKey>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="0">
+                <predefinedFgLighting>MouseDpiLighting</predefinedFgLighting>
+              </predefinedLighting>
+            </predefinedLightings>
+            <disabledLightingTypes>
+              <type>wave</type>
+              <type>ripple</type>
+            </disabledLightingTypes>
+          </l_key>
+        </key>
+        <key>
+          <name>Mouse4</name>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        <geometry><point x="234" y="378" /><point x="244" y="357" /><point x="298" y="434" /><point x="286" y="436" /><point x="270" y="433" /><point x="233" y="379" /></geometry></key>
+        <key>
+          <name>Mouse5</name>
+          <d_key>
+            <predefinedCommand>MouseStandardCommand</predefinedCommand>
+          </d_key>
+        <geometry><point x="241" y="353" /><point x="226" y="366" /><point x="218" y="358" /><point x="176" y="302" /><point x="179" y="285" /><point x="185" y="278" /><point x="240" y="352" /></geometry></key>
+        <key>
+          <name>Mouse6</name>
+          <d_key>
+            <predefinedCommand>DPI Up</predefinedCommand>
+          </d_key>
+        <geometry><point x="85" y="111" /><point x="102" y="102" /><point x="149" y="154" /><point x="132" y="164" /><point x="84" y="112" /></geometry></key>
+        <key>
+          <name>Mouse7</name>
+          <d_key>
+            <predefinedCommand>DPI Down</predefinedCommand>
+          </d_key>
+        <geometry><point x="132" y="164" /><point x="150" y="155" /><point x="199" y="211" /><point x="181" y="220" /><point x="132" y="164" /></geometry></key>
+        <key>
+          <name>Mouse9</name>
+          <displayName>8</displayName>
+          <d_key />
+        <geometry><point x="339" y="164" /><point x="417" y="252" /><point x="458" y="253" /><point x="431" y="213" /><point x="373" y="146" /><point x="340" y="162" /></geometry></key>
+        <key>
+          <name>MouseLogoLed</name>
+          <geometry>
+            <point x="484" y="418" /> 
+            <point x="487" y="418" /> 
+            <point x="490" y="419" /> 
+            <point x="493" y="421" /> 
+            <point x="495" y="426" /> 
+            <point x="497" y="430" /> 
+            <point x="499" y="433" /> 
+            <point x="501" y="436" /> 
+            <point x="505" y="441" /> 
+            <point x="510" y="446" /> 
+            <point x="515" y="449" /> 
+            <point x="518" y="451" /> 
+            <point x="521" y="451" /> 
+            <point x="523" y="449" /> 
+            <point x="525" y="446" /> 
+            <point x="525" y="441" /> 
+            <point x="526" y="437" /> 
+            <point x="527" y="433" /> 
+            <point x="529" y="429" /> 
+            <point x="532" y="425" /> 
+            <point x="534" y="424" /> 
+            <point x="536" y="424" /> 
+            <point x="539" y="426" /> 
+            <point x="542" y="434" /> 
+            <point x="543" y="437" /> 
+            <point x="545" y="441" /> 
+            <point x="547" y="443" /> 
+            <point x="550" y="441" /> 
+            <point x="552" y="439" /> 
+            <point x="555" y="437" /> 
+            <point x="557" y="435" /> 
+            <point x="557" y="431" /> 
+            <point x="556" y="428" /> 
+            <point x="555" y="426" /> 
+            <point x="553" y="423" /> 
+            <point x="551" y="420" /> 
+            <point x="550" y="416" /> 
+            <point x="551" y="413" /> 
+            <point x="552" y="411" /> 
+            <point x="554" y="411" /> 
+            <point x="557" y="410" /> 
+            <point x="561" y="411" /> 
+            <point x="564" y="411" /> 
+            <point x="567" y="412" /> 
+            <point x="569" y="413" /> 
+            <point x="571" y="415" /> 
+            <point x="575" y="414" /> 
+            <point x="576" y="410" /> 
+            <point x="577" y="405" /> 
+            <point x="577" y="398" /> 
+            <point x="576" y="393" /> 
+            <point x="575" y="385" /> 
+            <point x="574" y="377" /> 
+            <point x="574" y="373" /> 
+            <point x="575" y="369" /> 
+            <point x="576" y="366" /> 
+            <point x="579" y="367" /> 
+            <point x="581" y="368" /> 
+            <point x="585" y="371" /> 
+            <point x="588" y="373" /> 
+            <point x="591" y="377" /> 
+            <point x="593" y="382" /> 
+            <point x="596" y="386" /> 
+            <point x="598" y="389" /> 
+            <point x="600" y="396" /> 
+            <point x="601" y="403" /> 
+            <point x="602" y="409" /> 
+            <point x="602" y="417" /> 
+            <point x="600" y="425" /> 
+            <point x="599" y="432" /> 
+            <point x="597" y="437" /> 
+            <point x="595" y="443" /> 
+            <point x="593" y="446" /> 
+            <point x="593" y="449" /> 
+            <point x="593" y="451" /> 
+            <point x="595" y="454" /> 
+            <point x="597" y="457" /> 
+            <point x="598" y="459" /> 
+            <point x="599" y="459" /> 
+            <point x="603" y="461" /> 
+            <point x="607" y="463" /> 
+            <point x="610" y="466" /> 
+            <point x="612" y="469" /> 
+            <point x="614" y="474" /> 
+            <point x="615" y="480" /> 
+            <point x="616" y="486" /> 
+            <point x="616" y="491" /> 
+            <point x="611" y="498" /> 
+            <point x="608" y="502" /> 
+            <point x="604" y="505" /> 
+            <point x="600" y="507" /> 
+            <point x="596" y="510" /> 
+            <point x="591" y="512" /> 
+            <point x="589" y="514" /> 
+            <point x="584" y="517" /> 
+            <point x="579" y="520" /> 
+            <point x="575" y="523" /> 
+            <point x="571" y="525" /> 
+            <point x="568" y="528" /> 
+            <point x="563" y="529" /> 
+            <point x="559" y="530" /> 
+            <point x="556" y="531" /> 
+            <point x="553" y="531" /> 
+            <point x="549" y="532" /> 
+            <point x="543" y="532" /> 
+            <point x="540" y="530" /> 
+            <point x="535" y="529" /> 
+            <point x="533" y="526" /> 
+            <point x="531" y="523" /> 
+            <point x="530" y="519" /> 
+            <point x="528" y="515" /> 
+            <point x="528" y="512" /> 
+            <point x="528" y="507" /> 
+            <point x="530" y="500" /> 
+            <point x="530" y="495" /> 
+            <point x="529" y="488" /> 
+            <point x="527" y="485" /> 
+            <point x="524" y="484" /> 
+            <point x="520" y="484" /> 
+            <point x="515" y="483" /> 
+            <point x="510" y="482" /> 
+            <point x="506" y="480" /> 
+            <point x="503" y="477" /> 
+            <point x="499" y="473" /> 
+            <point x="495" y="470" /> 
+            <point x="490" y="465" /> 
+            <point x="486" y="460" /> 
+            <point x="481" y="448" /> 
+            <point x="480" y="444" /> 
+            <point x="480" y="437" /> 
+            <point x="480" y="431" /> 
+            <point x="480" y="426" /> 
+            <point x="480" y="421" />
+          </geometry>
+          <l_key>
+            <disabledLightingTypes>
+              <type>ripple</type>
+              <type>wave</type>
+            </disabledLightingTypes>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="1">
+                <predefinedBgColor>#ff0000</predefinedBgColor>
+              </predefinedLighting>
+            </predefinedLightings>
+          </l_key>
+        </key>
+      </keys>
+      <keysMap>
+        <mapping d_key="Mouse3" l_key="MouseScrollLed" />
+      </keysMap>
+      <light>
+        <groups>
+          <group name="All" version="1">
+            <keys>
+              <key name="MouseFrontLed" />
+              <key name="MouseLogoLed" />
+              <key name="MouseScrollLed" />
+            </keys>
+            <predefinedLightings>
+              <predefinedLighting mode="default" predefinedType="0">
+              </predefinedLighting>
+            </predefinedLightings>
+          </group>
+        </groups>
+      </light>
+    </layout>
+  </layouts>
+  <performance dpiStep="50" maxDpi="6400" maxDpiSlots="5" minDpi="50">
+    <pollingRates>
+      <pollingRate>125</pollingRate>
+      <pollingRate>250</pollingRate>
+      <pollingRate>500</pollingRate>
+      <pollingRate>1000</pollingRate>
+    </pollingRates>
+    <defaultDPI independent="false">
+      <dpiStages>
+        <dpi x="400" y="400" />
+        <dpi x="800" y="800" />
+        <dpi default="true" x="1500" y="1500" />
+        <dpi x="3000" y="3000" />
+        <dpi x="6000" y="6000" />
+      </dpiStages>
+      <dpiSniper independent="0" x="400" y="400" />
+    </defaultDPI>
+  </performance>
+</device>

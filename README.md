@@ -6,16 +6,6 @@ Please note that this is **not** the similar, but far more advanced Corsair Effe
 #Summary
 This application is made to run in the place of the Corsair Utility Engine. It provides several effects that are not available through CUE, such as a spectrograph for audio playing through the computer or from input devices, randomized lighting, reactive lighting effects, idle/away timer with profile switching, and other features. It is still in active development, and there are many new features on the way!
 
-Build
------
-
-To build the software, you need to get the device profiles. They aren't present
-in the repository, although they're available as part of the 0.6.4a installer on
-the archived version of Emily Maxwell's website. so you'll need to download them
-from the [web archive][device-profiles], and unpack `corsair_devices` directory
-from the downloaded archive into
-`Corsair RGB Keyboard Spectrograph/corsair_devices`.
-
 #Installation
 Please ensure that you are running .NET 4.5+. You can download it <a href="http://www.microsoft.com/en-ca/download/details.aspx?id=30653">here</a>.
 Download the compiled binaries from <a href="http://emily-maxwell.com/?page=keyboardspectro">my website</a>, and extract them to a location of your choice.

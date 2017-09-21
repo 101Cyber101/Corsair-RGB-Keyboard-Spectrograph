@@ -1,0 +1,1740 @@
+<keys>
+	<key>
+		<name>GraveAccentAndTilde</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="155" y="110" />
+			<point x="185" y="110" />
+			<point x="185" y="140" />
+			<point x="155" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>G2</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="60" y="65" />
+			<point x="90" y="65" />
+			<point x="90" y="95" />
+			<point x="60" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>Escape</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="155" y="65" />
+			<point x="185" y="65" />
+			<point x="185" y="95" />
+			<point x="155" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>G1</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="20" y="65" />
+			<point x="50" y="65" />
+			<point x="50" y="95" />
+			<point x="20" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>G3</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="100" y="65" />
+			<point x="130" y="65" />
+			<point x="130" y="95" />
+			<point x="100" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>G4</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="20" y="105" />
+			<point x="50" y="105" />
+			<point x="50" y="135" />
+			<point x="20" y="135" />
+		</geometry>
+	</key>
+	<key>
+		<name>G5</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="60" y="105" />
+			<point x="90" y="105" />
+			<point x="90" y="135" />
+			<point x="60" y="135" />
+		</geometry>
+	</key>
+	<key>
+		<name>G6</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="100" y="105" />
+			<point x="130" y="105" />
+			<point x="130" y="135" />
+			<point x="100" y="135" />
+		</geometry>
+	</key>
+	<key>
+		<name>G12</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="100" y="190" />
+			<point x="130" y="190" />
+			<point x="130" y="220" />
+			<point x="100" y="220" />
+		</geometry>
+	</key>
+	<key>
+		<name>G11</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="60" y="190" />
+			<point x="90" y="190" />
+			<point x="90" y="220" />
+			<point x="60" y="220" />
+		</geometry>
+	</key>
+	<key>
+		<name>G9</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="100" y="150" />
+			<point x="130" y="150" />
+			<point x="130" y="180" />
+			<point x="100" y="180" />
+		</geometry>
+	</key>
+	<key>
+		<name>G10</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="20" y="190" />
+			<point x="50" y="190" />
+			<point x="50" y="220" />
+			<point x="20" y="220" />
+		</geometry>
+	</key>
+	<key>
+		<name>G7</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="20" y="150" />
+			<point x="50" y="150" />
+			<point x="50" y="180" />
+			<point x="20" y="180" />
+		</geometry>
+	</key>
+	<key>
+		<name>G8</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="60" y="150" />
+			<point x="90" y="150" />
+			<point x="90" y="180" />
+			<point x="60" y="180" />
+		</geometry>
+	</key>
+	<key>
+		<name>G15</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="100" y="240" />
+			<point x="130" y="240" />
+			<point x="130" y="270" />
+			<point x="100" y="270" />
+		</geometry>
+	</key>
+	<key>
+		<name>G16</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="20" y="280" />
+			<point x="50" y="280" />
+			<point x="50" y="310" />
+			<point x="20" y="310" />
+		</geometry>
+	</key>
+	<key>
+		<name>G18</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="100" y="280" />
+			<point x="130" y="280" />
+			<point x="130" y="310" />
+			<point x="100" y="310" />
+		</geometry>
+	</key>
+	<key>
+		<name>G17</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="60" y="280" />
+			<point x="90" y="280" />
+			<point x="90" y="310" />
+			<point x="60" y="310" />
+		</geometry>
+	</key>
+	<key>
+		<name>G13</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="20" y="240" />
+			<point x="50" y="240" />
+			<point x="50" y="270" />
+			<point x="20" y="270" />
+		</geometry>
+	</key>
+	<key>
+		<name>G14</name>
+		<l_key />
+		<d_key />
+		<geometry>
+			<point x="60" y="240" />
+			<point x="90" y="240" />
+			<point x="90" y="270" />
+			<point x="60" y="270" />
+		</geometry>
+	</key>
+	<key>
+		<name>F1</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="225" y="65" />
+			<point x="255" y="65" />
+			<point x="255" y="95" />
+			<point x="225" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F2</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="265" y="65" />
+			<point x="295" y="65" />
+			<point x="295" y="95" />
+			<point x="265" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F3</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="310" y="65" />
+			<point x="340" y="65" />
+			<point x="340" y="95" />
+			<point x="310" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F4</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="350" y="65" />
+			<point x="380" y="65" />
+			<point x="380" y="95" />
+			<point x="350" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F6</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="460" y="65" />
+			<point x="490" y="65" />
+			<point x="490" y="95" />
+			<point x="460" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F5</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="420" y="65" />
+			<point x="450" y="65" />
+			<point x="450" y="95" />
+			<point x="420" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F8</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="545" y="65" />
+			<point x="575" y="65" />
+			<point x="575" y="95" />
+			<point x="545" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F7</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="505" y="65" />
+			<point x="535" y="65" />
+			<point x="535" y="95" />
+			<point x="505" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F10</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="655" y="65" />
+			<point x="685" y="65" />
+			<point x="685" y="95" />
+			<point x="655" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F9</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="615" y="65" />
+			<point x="645" y="65" />
+			<point x="645" y="95" />
+			<point x="615" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F12</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="740" y="65" />
+			<point x="770" y="65" />
+			<point x="770" y="95" />
+			<point x="740" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>F11</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="700" y="65" />
+			<point x="730" y="65" />
+			<point x="730" y="95" />
+			<point x="700" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>PrintScreen</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="795" y="65" />
+			<point x="825" y="65" />
+			<point x="825" y="95" />
+			<point x="795" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>ScrollLock</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="835" y="65" />
+			<point x="865" y="65" />
+			<point x="865" y="95" />
+			<point x="835" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>PauseBreak</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="875" y="65" />
+			<point x="905" y="65" />
+			<point x="905" y="95" />
+			<point x="875" y="95" />
+		</geometry>
+	</key>
+	<key>
+		<name>PageUp</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="876" y="111" />
+			<point x="906" y="111" />
+			<point x="906" y="141" />
+			<point x="876" y="141" />
+		</geometry>
+	</key>
+	<key>
+		<name>Insert</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="792" y="114" />
+			<point x="822" y="114" />
+			<point x="822" y="144" />
+			<point x="792" y="144" />
+		</geometry>
+	</key>
+	<key>
+		<name>Home</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="834" y="111" />
+			<point x="864" y="111" />
+			<point x="864" y="141" />
+			<point x="834" y="141" />
+		</geometry>
+	</key>
+	<key>
+		<name>PageDown</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="876" y="150" />
+			<point x="906" y="150" />
+			<point x="906" y="180" />
+			<point x="876" y="180" />
+		</geometry>
+	</key>
+	<key>
+		<name>Delete</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="792" y="150" />
+			<point x="822" y="150" />
+			<point x="822" y="180" />
+			<point x="792" y="180" />
+		</geometry>
+	</key>
+	<key>
+		<name>End</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="834" y="150" />
+			<point x="864" y="150" />
+			<point x="864" y="180" />
+			<point x="834" y="180" />
+		</geometry>
+	</key>
+	<key>
+		<name>1</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="195" y="110" />
+			<point x="225" y="110" />
+			<point x="225" y="140" />
+			<point x="195" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>2</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="240" y="110" />
+			<point x="270" y="110" />
+			<point x="270" y="140" />
+			<point x="240" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>3</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="280" y="110" />
+			<point x="310" y="110" />
+			<point x="310" y="140" />
+			<point x="280" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>4</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="325" y="110" />
+			<point x="355" y="110" />
+			<point x="355" y="140" />
+			<point x="325" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>5</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="365" y="110" />
+			<point x="395" y="110" />
+			<point x="395" y="140" />
+			<point x="365" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>6</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="408" y="110" />
+			<point x="438" y="110" />
+			<point x="438" y="140" />
+			<point x="408" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>7</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="445" y="110" />
+			<point x="475" y="110" />
+			<point x="475" y="140" />
+			<point x="445" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>0</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="575" y="110" />
+			<point x="605" y="110" />
+			<point x="605" y="140" />
+			<point x="575" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>EqualsAndPlus</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="655" y="110" />
+			<point x="685" y="110" />
+			<point x="685" y="140" />
+			<point x="655" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>MinusAndUnderscore</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="615" y="110" />
+			<point x="645" y="110" />
+			<point x="645" y="140" />
+			<point x="615" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>9</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="535" y="110" />
+			<point x="565" y="110" />
+			<point x="565" y="140" />
+			<point x="535" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>8</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="490" y="110" />
+			<point x="520" y="110" />
+			<point x="520" y="140" />
+			<point x="490" y="140" />
+		</geometry>
+	</key>
+	<key>
+		<name>T</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="385" y="153" />
+			<point x="415" y="153" />
+			<point x="415" y="183" />
+			<point x="385" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>W</name>
+		<l_key>
+			</l_key>
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="260" y="153" />
+			<point x="290" y="153" />
+			<point x="290" y="183" />
+			<point x="260" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>U</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="468" y="153" />
+			<point x="498" y="153" />
+			<point x="498" y="183" />
+			<point x="468" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>P</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="594" y="153" />
+			<point x="624" y="153" />
+			<point x="624" y="183" />
+			<point x="594" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>Y</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="428" y="153" />
+			<point x="458" y="153" />
+			<point x="458" y="183" />
+			<point x="428" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>BracketRight</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="675" y="153" />
+			<point x="705" y="153" />
+			<point x="705" y="183" />
+			<point x="675" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>Q</name>
+		<l_key>
+			</l_key>
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="219" y="153" />
+			<point x="249" y="153" />
+			<point x="249" y="183" />
+			<point x="219" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>R</name>
+		<l_key>
+			</l_key>
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="345" y="153" />
+			<point x="375" y="153" />
+			<point x="375" y="183" />
+			<point x="345" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>O</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="552" y="153" />
+			<point x="582" y="153" />
+			<point x="582" y="183" />
+			<point x="552" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>E</name>
+		<l_key>
+			</l_key>
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="303" y="153" />
+			<point x="333" y="153" />
+			<point x="333" y="183" />
+			<point x="303" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>BracketLeft</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="635" y="153" />
+			<point x="665" y="153" />
+			<point x="665" y="183" />
+			<point x="635" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>I</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="510" y="153" />
+			<point x="540" y="153" />
+			<point x="540" y="183" />
+			<point x="510" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>H</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="437" y="195" />
+			<point x="467" y="195" />
+			<point x="467" y="225" />
+			<point x="437" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>S</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="269" y="195" />
+			<point x="299" y="195" />
+			<point x="299" y="225" />
+			<point x="269" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>L</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="561" y="195" />
+			<point x="591" y="195" />
+			<point x="591" y="225" />
+			<point x="561" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>D</name>
+		<l_key>
+			</l_key>
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="312" y="195" />
+			<point x="342" y="195" />
+			<point x="342" y="225" />
+			<point x="312" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>K</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="519" y="195" />
+			<point x="549" y="195" />
+			<point x="549" y="225" />
+			<point x="519" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>J</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="477" y="195" />
+			<point x="507" y="195" />
+			<point x="507" y="225" />
+			<point x="477" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>SemicolonAndColon</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="603" y="195" />
+			<point x="633" y="195" />
+			<point x="633" y="225" />
+			<point x="603" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>ApostropheAndDoubleQuote</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="644" y="195" />
+			<point x="674" y="195" />
+			<point x="674" y="225" />
+			<point x="644" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>G</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="394" y="195" />
+			<point x="424" y="195" />
+			<point x="424" y="225" />
+			<point x="394" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>F</name>
+		<l_key>
+			</l_key>
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="354" y="195" />
+			<point x="384" y="195" />
+			<point x="384" y="225" />
+			<point x="354" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>A</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="228" y="195" />
+			<point x="258" y="195" />
+			<point x="258" y="225" />
+			<point x="228" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>N</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="458" y="234" />
+			<point x="488" y="234" />
+			<point x="488" y="264" />
+			<point x="458" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>C</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="333" y="234" />
+			<point x="363" y="234" />
+			<point x="363" y="264" />
+			<point x="333" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>CommaAndLessThan</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="540" y="234" />
+			<point x="570" y="234" />
+			<point x="570" y="264" />
+			<point x="540" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>V</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="375" y="234" />
+			<point x="405" y="234" />
+			<point x="405" y="264" />
+			<point x="375" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>Z</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="249" y="234" />
+			<point x="279" y="234" />
+			<point x="279" y="264" />
+			<point x="249" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>B</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="415" y="234" />
+			<point x="445" y="234" />
+			<point x="445" y="264" />
+			<point x="415" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>X</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="290" y="234" />
+			<point x="320" y="234" />
+			<point x="320" y="264" />
+			<point x="290" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>PeriodAndBiggerThan</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="582" y="234" />
+			<point x="612" y="234" />
+			<point x="612" y="264" />
+			<point x="582" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>SlashAndQuestionMark</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="624" y="234" />
+			<point x="654" y="234" />
+			<point x="654" y="264" />
+			<point x="624" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>M</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="498" y="234" />
+			<point x="528" y="234" />
+			<point x="528" y="264" />
+			<point x="498" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>Tab</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="156" y="150" />
+			<point x="204" y="150" />
+			<point x="204" y="183" />
+			<point x="156" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>CapsLock</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="156" y="195" />
+			<point x="216" y="195" />
+			<point x="216" y="225" />
+			<point x="156" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>LeftShift</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="156" y="234" />
+			<point x="237" y="234" />
+			<point x="237" y="264" />
+			<point x="156" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>LeftCtrl</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="156" y="276" />
+			<point x="204" y="276" />
+			<point x="204" y="306" />
+			<point x="156" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>Enter</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="687" y="195" />
+			<point x="768" y="195" />
+			<point x="768" y="225" />
+			<point x="687" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>RightShift</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="669" y="234" />
+			<point x="768" y="234" />
+			<point x="768" y="264" />
+			<point x="669" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>Backslash</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="720" y="153" />
+			<point x="768" y="153" />
+			<point x="768" y="183" />
+			<point x="720" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>Backspace</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="696" y="111" />
+			<point x="768" y="111" />
+			<point x="768" y="141" />
+			<point x="696" y="141" />
+		</geometry>
+	</key>
+	<key>
+		<name>LeftGui</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="219" y="276" />
+			<point x="249" y="276" />
+			<point x="249" y="306" />
+			<point x="219" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>LeftAlt</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="261" y="276" />
+			<point x="300" y="276" />
+			<point x="300" y="306" />
+			<point x="261" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>Space</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="312" y="276" />
+			<point x="573" y="276" />
+			<point x="573" y="306" />
+			<point x="312" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>RightAlt</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="585" y="276" />
+			<point x="624" y="276" />
+			<point x="624" y="306" />
+			<point x="585" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>RightGui</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="636" y="276" />
+			<point x="666" y="276" />
+			<point x="666" y="306" />
+			<point x="636" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>Application</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="678" y="276" />
+			<point x="708" y="276" />
+			<point x="708" y="306" />
+			<point x="678" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>RightCtrl</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="720" y="276" />
+			<point x="768" y="276" />
+			<point x="768" y="306" />
+			<point x="720" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>UpArrow</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="834" y="234" />
+			<point x="864" y="234" />
+			<point x="864" y="264" />
+			<point x="834" y="264" />
+		</geometry>
+	</key>
+	<key>
+		<name>LeftArrow</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="792" y="276" />
+			<point x="822" y="276" />
+			<point x="822" y="306" />
+			<point x="792" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>DownArrow</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="834" y="276" />
+			<point x="864" y="276" />
+			<point x="864" y="306" />
+			<point x="834" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>RightArrow</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="876" y="276" />
+			<point x="906" y="276" />
+			<point x="906" y="306" />
+			<point x="876" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>NumLock</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="930" y="111" />
+			<point x="960" y="111" />
+			<point x="960" y="141" />
+			<point x="930" y="141" />
+		</geometry>
+	</key>
+	<key>
+		<name>KeypadSlash</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="969" y="111" />
+			<point x="999" y="111" />
+			<point x="999" y="141" />
+			<point x="969" y="141" />
+		</geometry>
+	</key>
+	<key>
+		<name>KeypadAsterisk</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1011" y="111" />
+			<point x="1041" y="111" />
+			<point x="1041" y="141" />
+			<point x="1011" y="141" />
+		</geometry>
+	</key>
+	<key>
+		<name>KeypadMinus</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1053" y="111" />
+			<point x="1083" y="111" />
+			<point x="1083" y="141" />
+			<point x="1053" y="141" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad7</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="930" y="153" />
+			<point x="960" y="153" />
+			<point x="960" y="183" />
+			<point x="930" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad8</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="969" y="153" />
+			<point x="999" y="153" />
+			<point x="999" y="183" />
+			<point x="969" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad9</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1011" y="153" />
+			<point x="1041" y="153" />
+			<point x="1041" y="183" />
+			<point x="1011" y="183" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad4</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="930" y="195" />
+			<point x="960" y="195" />
+			<point x="960" y="225" />
+			<point x="930" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad5</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="969" y="195" />
+			<point x="999" y="195" />
+			<point x="999" y="225" />
+			<point x="969" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad6</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1011" y="195" />
+			<point x="1041" y="195" />
+			<point x="1041" y="225" />
+			<point x="1011" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad1</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="930" y="237" />
+			<point x="960" y="237" />
+			<point x="960" y="267" />
+			<point x="930" y="267" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad2</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="969" y="237" />
+			<point x="999" y="237" />
+			<point x="999" y="267" />
+			<point x="969" y="267" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad3</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1011" y="237" />
+			<point x="1041" y="237" />
+			<point x="1041" y="267" />
+			<point x="1011" y="267" />
+		</geometry>
+	</key>
+	<key>
+		<name>KeypadPeriodAndDelete</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1011" y="276" />
+			<point x="1041" y="276" />
+			<point x="1041" y="306" />
+			<point x="1011" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>Keypad0</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="930" y="276" />
+			<point x="999" y="276" />
+			<point x="999" y="306" />
+			<point x="930" y="306" />
+		</geometry>
+	</key>
+	<key>
+		<name>KeypadPlus</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1053" y="153" />
+			<point x="1083" y="153" />
+			<point x="1083" y="225" />
+			<point x="1053" y="225" />
+		</geometry>
+	</key>
+	<key>
+		<name>KeypadEnter</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1053" y="237" />
+			<point x="1083" y="237" />
+			<point x="1083" y="309" />
+			<point x="1053" y="309" />
+		</geometry>
+	</key>
+	<key>
+		<name>MR</name>
+		<d_key>
+			<predefinedCommand>MacroRecording</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="159" y="15" />
+			<point x="183" y="15" />
+			<point x="183" y="39" />
+			<point x="159" y="39" />
+		</geometry>
+		<l_key>
+			<predefinedLightings>
+				<predefinedLighting mode="default" predefinedType="0">
+					<predefinedFgLighting>MR</predefinedFgLighting>
+				</predefinedLighting>
+			</predefinedLightings>
+		</l_key>
+	</key>
+	<key>
+		<name>M1</name>
+		<d_key>
+			<predefinedCommand>ModeSwitch</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="201" y="15" />
+			<point x="222" y="15" />
+			<point x="222" y="36" />
+			<point x="201" y="36" />
+		</geometry>
+		<m_key />
+		<l_key>
+			<predefinedLightings>
+				<predefinedLighting mode="default" predefinedType="0">
+					<predefinedFgLighting>M1</predefinedFgLighting>
+				</predefinedLighting>
+			</predefinedLightings>
+		</l_key>
+	</key>
+	<key>
+		<name>M2</name>
+		<d_key>
+			<predefinedCommand>ModeSwitch</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="243" y="15" />
+			<point x="264" y="15" />
+			<point x="264" y="36" />
+			<point x="243" y="36" />
+		</geometry>
+		<m_key />
+		<l_key>
+			<predefinedLightings>
+				<predefinedLighting mode="default" predefinedType="0">
+					<predefinedFgLighting>M2</predefinedFgLighting>
+				</predefinedLighting>
+			</predefinedLightings>
+		</l_key>
+	</key>
+	<key>
+		<name>M3</name>
+		<d_key>
+			<predefinedCommand>ModeSwitch</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="285" y="15" />
+			<point x="306" y="15" />
+			<point x="306" y="36" />
+			<point x="285" y="36" />
+		</geometry>
+		<m_key />
+		<l_key>
+			<predefinedLightings>
+				<predefinedLighting mode="default" predefinedType="0">
+					<predefinedFgLighting>M3</predefinedFgLighting>
+				</predefinedLighting>
+			</predefinedLightings>
+		</l_key>
+	</key>
+	<key>
+		<name>Brightness</name>
+		<d_key>
+			<predefinedCommand>Brightness</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="798" y="15" />
+			<point x="819" y="15" />
+			<point x="819" y="36" />
+			<point x="798" y="36" />
+		</geometry>
+		<l_key>
+			<predefinedLightings>
+				<predefinedLighting mode="default" predefinedType="0">
+					<predefinedFgLighting>Brightness</predefinedFgLighting>
+				</predefinedLighting>
+			</predefinedLightings>
+		</l_key>
+	</key>
+	<key>
+		<name>WinLock</name>
+		<d_key>
+			<predefinedCommand>WinLock</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="837" y="15" />
+			<point x="858" y="15" />
+			<point x="858" y="36" />
+			<point x="837" y="36" />
+		</geometry>
+		<l_key>
+			<predefinedLightings>
+				<predefinedLighting mode="default" predefinedType="0">
+					<predefinedFgLighting>WinLock</predefinedFgLighting>
+				</predefinedLighting>
+			</predefinedLightings>
+		</l_key>
+	</key>
+	<key>
+		<name>Mute</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="966" y="15" />
+			<point x="1008" y="15" />
+			<point x="1008" y="39" />
+			<point x="966" y="39" />
+		</geometry>
+	</key>
+	<key>
+		<name>Stop</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="927" y="66" />
+			<point x="966" y="66" />
+			<point x="966" y="90" />
+			<point x="927" y="90" />
+		</geometry>
+	</key>
+	<key>
+		<name>ScanPreviousTrack</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="966" y="66" />
+			<point x="1008" y="66" />
+			<point x="1008" y="90" />
+			<point x="966" y="90" />
+		</geometry>
+	</key>
+	<key>
+		<name>PlayPause</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1008" y="66" />
+			<point x="1047" y="66" />
+			<point x="1047" y="90" />
+			<point x="1008" y="90" />
+		</geometry>
+	</key>
+	<key>
+		<name>ScanNextTrack</name>
+		<l_key />
+		<d_key>
+			<predefinedCommand>KeyboardStandardCommand</predefinedCommand>
+		</d_key>
+		<geometry>
+			<point x="1047" y="66" />
+			<point x="1086" y="66" />
+			<point x="1086" y="90" />
+			<point x="1047" y="90" />
+		</geometry>
+	</key>
+</keys>
