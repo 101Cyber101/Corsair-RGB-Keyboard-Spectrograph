@@ -897,7 +897,7 @@ namespace RGBKeyboardSpectrograph
                             Program.SettingsKeyboardID = 0x1B17;
                             break;
                         case "K70-RGB":
-                            Program.SettingsKeyboardID = 0x1B13;
+                            Program.SettingsKeyboardID = 0x1B49;
                             break;
                         case "K95-RGB":
                             Program.SettingsKeyboardID = 0x1B11;
@@ -908,6 +908,7 @@ namespace RGBKeyboardSpectrograph
                         case "STRAFE RGB":
                             Program.SettingsKeyboardID = 0x1B20;
                             break;
+                            
                     }
                 }
                 
